@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>webcase-task#2</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <section class="block">
+    <div class="container">
+      <div class="block__inner">
+        <div class="block__item">
+          <div class="block__top">
+            <div class="block__text">SPECIAL OFFER</div>
+            <div class="block__rate">Basic</div>
+            <div class="block__price">$2.95/month</div>
+          </div>
+          <a class="block__btn" href="#">Sign up</a>
+        </div>
+        <div class="block__item">
+          <div class="block__top">
+            <div class="block__text">SPECIAL OFFER</div>
+            <div class="block__rate">Plus</div>
+            <div class="block__price">$6.95/month</div>
+          </div>
+          <a class="block__btn" href="#">Sign up</a>
+        </div>
+        <div class="block__item">
+          <div class="block__top">
+            <div class="block__text">SPECIAL OFFER</div>
+            <div class="block__rate">Premium</div>
+            <div class="block__price">$10.95/month</div>
+          </div>
+          <a class="block__btn" href="#">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="block">
+    <div class="container">
+      <div class="block__inner block__inner--lg">
+        <div class="block__item block__item--lg">
+          <div class="block__top">
+            <div class="block__rate">Basic</div>
+            <div class="block__price">$2.95/month</div>
+          </div>
+          <div class="block__bottom">
+            <div class="block__list">
+              <ul>
+                <li>First Month Free</li>
+                <li>Unlimited Space</li>
+                <li>20 Subdomains</li>
+                <li>10 Gigs of Space</li>
+              </ul>
+            </div>
+            <a class="block__btn block__btn--lg" href="#">Sign up</a>
+          </div>
+        </div>
+        <div class="block__item block__item--lg">
+          <div class="block__top">
+            <div class="block__rate">Plus</div>
+            <div class="block__price">$6.95/month</div>
+          </div>
+          <div class="block__bottom">
+            <div class="block__list">
+              <ul>
+                <li>First Month Free</li>
+                <li>Unlimited Space</li>
+                <li>20 Subdomains</li>
+                <li>10 Gigs of Space</li>
+              </ul>
+            </div>
+            <a class="block__btn block__btn--lg" href="#">Sign up</a>
+          </div>
+        </div>
+        <div class="block__item block__item--lg">
+          <div class="block__top">
+            <div class="block__rate">Premium</div>
+            <div class="block__price">$10.95/month</div>
+          </div>
+          <div class="block__bottom">
+            <div class="block__list">
+              <ul>
+                <li>First Month Free</li>
+                <li>Unlimited Space</li>
+                <li>20 Subdomains</li>
+                <li>10 Gigs of Space</li>
+              </ul>
+            </div>
+            <a class="block__btn block__btn--lg" href="#">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="table">
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th class="table__head">Hosting<span>Price Plans</span></th>
+            <th class="table__head">Basic<span>$2.95/month</span></th>
+            <th class="table__head">Plus<span>$6.95/month</span></th>
+            <th class="table__head">Premium<span>$10.95/month</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Bandwidth</th>
+            <td>200 GB</td>
+            <td>300 GB</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <th>Storeage</th>
+            <td>10 GB</td>
+            <td>20 GB</td>
+            <td>30 GB</td>
+          </tr>
+          <tr>
+            <th>Setup Fee</th>
+            <td>Standard</td>
+            <td>Standard</td>
+            <td>Standard</td>
+          </tr>
+          <tr>
+            <th>Custom Domains</th>
+            <td><img src="images/cross.png" alt=""></td>
+            <td><img src="images/cross.png" alt=""></td>
+            <td><img src="images/check.png" alt=""></td>
+          </tr>
+          <tr>
+            <th>Support Basic</th>
+            <td>Standard</td>
+            <td>Standard</td>
+            <td>Standard</td>
+          </tr>
+          <tr>
+            <th>Email Accounts</th>
+            <td>3</td>
+            <td>10</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <th>PHPMyAdmin</th>
+            <td><img src="images/cross.png" alt=""></td>
+            <td><img src="images/cross.png" alt=""></td>
+            <td><img src="images/check.png" alt=""></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <!-- <td></td> -->
+            <td colspan="2"><a class="block__btn block__btn--tab" data-fancybox data-src="#openmodal" href="javascript:;">Sign up</a>
+            </td>
+            <td><a class="block__btn" data-fancybox data-src="#openmodal" href="javascript:;">Sign up</a>
+            </td>
+            <td><a class="block__btn" data-fancybox data-src="#openmodal" href="javascript:;">Sign up</a>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </section>
+
+  <div class="modal" id="openmodal">
+    <div class="modal__title">Sign Up<span>Want to sign up fill out this form!</span></div>
+    <form class="modal__form">
+      <label for="firstname">First name</label><input id="firstname" type="text" placeholder="Enter your first name"
+        required>
+      <label for="lastname">Last name</label><input id="lastname" type="text" placeholder="Enter your last name"
+        required>
+      <input class="modal__checkbox" id="accept" type="checkbox" required><label class="modal__label" for="accept">I
+        accept the terms of use</label>
+      <button type="submit">Sing Up</button>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
